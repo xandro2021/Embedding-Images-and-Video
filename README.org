@@ -1,0 +1,14 @@
+#+title: Project: Embedding Images and Video
+
+* Links
++ https://www.notion.so/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf
+
+* Instruction
+** Let's Build !!!
+# ❗️Let's Build
+
+*Time estimate: 12 hours*
+
+Let's dive right into a project! If you haven't already, complete this project from The Odin Project's open-source curriculum. This is the longest project in the mini-Bootcamp, so don't worry if you don't finish it all:
+
+[ ] [[https://github.com/TheOdinProject/curriculum/blob/b5b6fc5cfedbcc28005eb92aca8ba79e0e81bdc8/html_css/project_media.md][Project: Embedding Images and Video]]
