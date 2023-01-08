@@ -1,7 +1,8 @@
 #+title: Project: Embedding Images and Video
 
 * Links
-+ https://www.notion.so/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf
++ [[https://www.notion.so/HTML-CSS-Get-a-head-start-275eb85fd34b4416aa06ec635d69cdaf][Microverse]]
++ [[https://github.com/TheOdinProject/curriculum/blob/b5b6fc5cfedbcc28005eb92aca8ba79e0e81bdc8/html_css/project_media.md][ODIN]]
 
 * Instruction
 ** Let's Build !!!
