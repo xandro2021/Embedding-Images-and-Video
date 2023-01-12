@@ -1,3 +1,4 @@
+/* VIDEO and General Container */
 .contenedor {
     display: flex;
     padding-top: 2.4rem;
@@ -7,7 +8,7 @@
 .mainSection {
     max-width: 127rem;
     flex: 3 1 auto;
-    margin-left: 1.5rem;
+    margin-left: .2rem;
 }
 
 .sideBar {
@@ -18,3 +19,85 @@
     width: 100%;
     height: 80rem;
 }
+
+
+/* Video Information */
+
+/* HEADER */
+.mainSection .title {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.mainSection .user .profilePicture {
+    border-radius: 50%;
+    max-width: fit-content;
+    width: 4rem;
+    overflow: auto;
+}
+
+.mainSection .informationHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user .titleInformation  h3 {
+    font-size: 1.6rem;
+    margin: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.user .titleInformation  p {
+    font-size: 1.2rem;
+    margin: 0rem;
+    color: #7a7a7a;
+}
+
+.informationHeader  .rightButtons > a,
+.informationHeader  .groupButton,
+.informationHeader .user a {
+    width: 10.3rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 25rem 25rem 25rem 25rem;
+    font-size: 1.5rem;
+    font-weight: 580;
+}
+
+.user .subscribe {
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+.informationHeader  .groupButton,
+.informationHeader  .btnMore,
+.informationHeader  .rightButtons > a {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.informationHeader  .groupButton {
+    width: 13.2rem;
+}
+
+.informationHeader  .btnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 3.5rem;
+    padding: 1rem;
+}
+
+.rightButtons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+/* FIN HEADER */
