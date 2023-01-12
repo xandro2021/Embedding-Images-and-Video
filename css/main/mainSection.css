@@ -1,0 +1,20 @@
+.contenedor {
+    display: flex;
+    padding-top: 2.4rem;
+    margin: 0 auto;
+}
+
+.mainSection {
+    max-width: 127rem;
+    flex: 3 1 auto;
+    margin-left: 1.5rem;
+}
+
+.sideBar {
+    flex: 0 1 auto;
+}
+
+.youtubeVideo > iframe {
+    width: 100%;
+    height: 80rem;
+}
