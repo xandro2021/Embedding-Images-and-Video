@@ -1,0 +1,38 @@
+/* SIDEBAR HEADER */
+.sideBar {
+    margin: 0.5rem 2rem;
+    padding-left: 1rem;
+}
+
+.sideBar>* {
+    border: 1px #000 solid;
+}
+
+.sideBar .tags {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+    overflow-x: scroll;
+}
+
+.sideBar .tags>* {
+    flex: 0 0 auto;
+}
+
+.sideBar .tags a {
+    font-size: 1.55rem;
+    background-color: #eee;
+    padding: 0.45em .75em;
+    border-radius: .7rem;
+    color: #000;
+}
+
+.sideBar .tags a:first-of-type {
+    background-color: #000;
+    color: #fff;
+}
+
+/* VIDEOS */
+.video {
+    display: block;
+}
