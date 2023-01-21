@@ -1,11 +1,11 @@
 /* SIDEBAR HEADER */
 .sideBar {
-    margin: 0.5rem 2rem;
-    padding-left: 1rem;
+    margin: 0.5rem 1rem;
+    padding-left: 1.1rem;
 }
 
 .sideBar>* {
-    border: 1px #000 solid;
+    padding: 0.10rem 0.25rem;
 }
 
 .sideBar .tags {
@@ -33,6 +33,61 @@
 }
 
 /* VIDEOS */
-.video {
+.sideBar .otherVideos .video {
+    display: flex;
+    padding: 0rem;
+    gap: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.otherVideos .video>* {
+    flex: 1 1 0;
+}
+
+.otherVideos .video h3 ,
+.otherVideos .video p {
+    margin: 0rem;
+    padding: 0rem;
+    line-height: 1.3;
+}
+
+.otherVideos .video h3 {
+    font-size: 1.5rem;
+}
+
+.otherVideos .video p {
+    font-size: 1.3rem;
+    color: #7a7a7a;
+}
+
+.otherVideos .video .videoImage  img {
+    width: 100%;
+    max-height: 9.4rem;
     display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.otherVideos .video .videoImage  {
+    max-width: 16.8rem;
+    width: auto;
+    max-height: 9.4rem;
+}
+
+.video .videoInformation .otherInformation {
+    display: flex;
+}
+
+.video .otherInformation p {
+    font-size: 1.2rem;
+}
+
+.video .videoInformation .author {
+    margin-bottom: 0.2rem;
+}
+
+.video .otherInformation .date::before {
+    content: "·";
+    font-weight: 800;
+    margin-left: .5rem;
 }
